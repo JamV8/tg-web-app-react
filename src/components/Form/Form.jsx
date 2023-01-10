@@ -57,7 +57,6 @@ const Form = () => {
                 <option value="physical">Физ. лицо</option>
                 <option value="legal">Юр. лицо</option>
             </select>
-            FORM
         </div>
     );
 };
