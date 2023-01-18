@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from "../Button/Button"
+import "./ProductItem.css"
 
 const ProductItem = ({product, className, onAdd}) => {
 
