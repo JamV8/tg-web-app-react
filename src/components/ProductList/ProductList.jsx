@@ -34,13 +34,13 @@ const ProductList = ({product}) => {
             totalPrice: getTotalPrice(addedItems),
             queryId,
         }
-        fetch('', {
+        fetch('/web-data', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify(data)
-        })
+        }).then(r => r)
     }, [])
 
     useEffect(() => {
